@@ -5,6 +5,11 @@
 			"referenceName": "LS_SqlDB",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"table_name": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "AzureSqlTable",
 		"schema": [
@@ -47,7 +52,10 @@
 		],
 		"typeProperties": {
 			"schema": "dbo",
-			"table": "source_cars_date"
+			"table": {
+				"value": "@dataset().table_name",
+				"type": "Expression"
+			}
 		}
 	},
 	"type": "Microsoft.DataFactory/factories/datasets"

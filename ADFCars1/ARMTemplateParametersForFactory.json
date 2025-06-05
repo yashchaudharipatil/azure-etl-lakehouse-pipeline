@@ -8,6 +8,9 @@
 		"LS_SqlDB_password": {
 			"value": ""
 		},
+		"ls_datelake_accountKey": {
+			"value": ""
+		},
 		"LS_SqlDB_properties_typeProperties_server": {
 			"value": "carsalessserver336699.database.windows.net"
 		},
@@ -19,6 +22,9 @@
 		},
 		"gitToBronzeLS_properties_typeProperties_url": {
 			"value": "https://raw.githubusercontent.com"
+		},
+		"ls_datelake_properties_typeProperties_url": {
+			"value": "https://storageaccountretl.dfs.core.windows.net/"
 		}
 	}
 }

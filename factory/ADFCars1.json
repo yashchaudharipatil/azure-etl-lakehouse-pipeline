@@ -1,0 +1,9 @@
+{
+	"name": "ADFCars1",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "65821186-118c-4347-8459-aeeda888b9dc",
+		"tenantId": "cf562a2d-726e-4c53-9c26-3adaf2437c5c"
+	}
+}

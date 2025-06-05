@@ -150,7 +150,10 @@
 				"outputs": [
 					{
 						"referenceName": "AzureSqlTable1",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"table_name": "SalesData.csv"
+						}
 					}
 				]
 			}
